@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ЛичныеДанныеСтудентов.exe" version="1.0.0.0" publicKeyToken="e6053c45192f4c4f" language="neutral" processorArchitecture="amd64" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ЛичныеДанныеСтудентов" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <commandLine file="ЛичныеДанныеСтудентов.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ЛичныеДанныеСтудентов.exe" size="13304">
+      <assemblyIdentity name="ЛичныеДанныеСтудентов" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tZ90h5YBBdhLDAO8Ub678KXvB3GszGnjBXExE6UPtSc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ЛичныеДанныеСтудентов.exe.config" size="528">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hj+DHC6HLEruatQjoqHgPdcmLNWKSstUZ1VFZ9KgXJw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-2IG00DF\Qin Nevai" issuerKeyHash="d3e100ec9d140f20642ecc1d3be5dfbddf3c7122" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZCUpX5aPlg4cdBcL5L3YFi/RkWodnuh5PUxmQMSBMVU=</DigestValue></Reference></SignedInfo><SignatureValue>lLy6Z/+g9xm/iXwsLgtxVT8McB/++sZ1YnAq1gDRm9tiLnLDo/KOtvohBO6gfcHBhZjLsAZsgTFD6sc2BwJ6SHHp4iblsGo/oCPzRWRtYUn0UvaZzRIBWfC7VfWXptXuRb+niPEG0OJ+dd47JOjxP/yo29fKNqCAXKh1f2MS4Lc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>scwU9mBaaTTTrzNN5pRd6kZW6JG0t1HUhP60ZuCzufxQz1reZqXicK0c82AbJ9C0hZ1shCU03zp3jRiBtPIH4QF9uGDAEg0CArzcAWXHo5/B247GwFqacn5o89BxHX5VL3Noj85uSSaXHJJTbF4shOJB1QBahvZ/KUN/zrdcvGU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="553181c440664c3d79e89e1d6a91d12f16d8bde40b17741c0e968f965f292564" Description="" Url=""><as:assemblyIdentity name="ЛичныеДанныеСтудентов.exe" version="1.0.0.0" publicKeyToken="e6053c45192f4c4f" language="neutral" processorArchitecture="amd64" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-2IG00DF\Qin Nevai</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Iy+6zf2xz6Bq/+uhMz+C9SpXbIBUq98aY030xzfxJ3A=</DigestValue></Reference></SignedInfo><SignatureValue>Xc9EaRNCyJUcygwEa1SrW/QjWT1vcCYEngyP0JrqZAY+0hK60aBQ4w+IRv3gz839y27+ZTFlKUaZuZCJpPRy24F3N88Vfy6iQrdLAqnz64jbS6oR3dFmbWUJupvzSaR3DmWQpwOOkX7jldlLEZyRQJ6sHQQwlPA0pHZK+J5XenA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>scwU9mBaaTTTrzNN5pRd6kZW6JG0t1HUhP60ZuCzufxQz1reZqXicK0c82AbJ9C0hZ1shCU03zp3jRiBtPIH4QF9uGDAEg0CArzcAWXHo5/B247GwFqacn5o89BxHX5VL3Noj85uSSaXHJJTbF4shOJB1QBahvZ/KUN/zrdcvGU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQGylGF7vSD71ESPcFdT9kWTANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIARABFAFMASwBUAE8AUAAtADIASQBHADAAMABEAEYAXABRAGkAbgAgAE4AZQB2AGEAaTAeFw0yNTA0MDEyMzAyMDZaFw0yNjA0MDIwNTAyMDZaMD0xOzA5BgNVBAMeMgBEAEUAUwBLAFQATwBQAC0AMgBJAEcAMAAwAEQARgBcAFEAaQBuACAATgBlAHYAYQBpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxzBT2YFppNNOvM03mlF3qRlbokbS3UdSE/rRm4LO5/FDPWt5mpeJwrRzzYBsn0LSFnWyEJTTfOneNGIG08gfhAX24YMASDQICvNwBZcejn8HbjsbAWppyfmjz0HEdflUvc2iPzm5JJpccklNsXiyE4kHVAFqG9n8pQ3/Ot1y8ZQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJyOq6uC4OFL2EpTo3BUEc7HX7dTze0oRakKZWwsM9whpciKws+xW/2TTJpZEMhUaOQBNw3g20aVdqbtiHXQmE0q8mA7/qToJ6+r1W/ppxgTJ0izIwi6trBBIJBX2A0IneFvpPUzH1XBK6bASI4rqqYZ7NVXbyHhwoXMDUShQIrJ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
